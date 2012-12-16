@@ -52,7 +52,7 @@ NSString * const kTwtmoreErrorDomain = @"com.twtmore.Twtmore";
 	NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:
                            tweet, @"tweet",
                            username, @"user",
-                           self.apiKey, @"apiKey",
+                           self.apiKey, @"apikey",
                            nil];
 	
 	AFHTTPClient *client = [AFHTTPClient clientWithBaseURL:[NSURL URLWithString:kTwtmoreBaseURL]];
